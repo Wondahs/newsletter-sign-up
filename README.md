@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution Page](https://www.frontendmentor.io/solutions/newsletter-sign-up-FI_IzK5Xz-)
+- Live Site URL: [Newsletter Signup](https://wondahs.github.io/newsletter-sign-up/)
 
 ## My process
 
