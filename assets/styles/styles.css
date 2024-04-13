@@ -1,0 +1,267 @@
+@font-face {
+	font-family: "Roboto-Regular";
+	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../fonts/Roboto-Bold.ttf") format("truetype");
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: hsl(234, 29%, 20%);
+	font-family: "Roboto-regular";
+	color: hsl(235, 18%, 26%);
+}
+
+h1 {
+	font-family: "Roboto-bold";
+	font-size: 50px;
+	text-align: justify;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	margin-bottom: 30px;
+	width: 60%;
+	background-color: transparent;
+	padding: 0;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.signup {
+	display: flex;
+	padding: 20px;
+	width: 95%;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.image {
+	width: 50%;
+	height: auto;
+}
+
+.image img {
+	width: 100%;
+	height: 100%;
+}
+
+.subscribe {
+	padding: 10px;
+	padding-top: 45px;
+	padding-right: 40px;
+	width: 50%;
+}
+
+.features {
+	
+	list-style: none;
+	padding: 0;
+}
+
+.features li {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+.features li p {
+	margin: 6px 0;
+}
+
+.features li img {
+	margin-right: 10px;
+	width: 20px;
+}
+
+.message {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.message p {
+	margin-bottom: 0px;
+	font-size: 15px;
+}
+
+.error-msg {
+	margin-left: auto;
+	font-weight: bold;
+	color: hsl(4, 100%, 67%);
+}
+
+.subscribe input {
+	width: 90%;
+	padding: 20px 15px;
+	border-radius: 5px;
+	border: 1px hsl(231, 7%, 60%) solid;
+	margin-bottom: 20px;
+}
+
+.subscribe button,
+.success button {
+	width: 100%;
+	padding: 20px 15px;
+	background-color: hsl(234, 29%, 20%);
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+.subscribe button:hover,
+.success button:hover {
+	background-color: hsl(4, 100%, 67%);
+	cursor: pointer;
+}
+
+input {
+	border: none;
+	outline: none;
+}
+
+.input-error {
+	color: hsl(4, 100%, 67%);
+	border-color: hsl(4, 100%, 67%);
+	background-color: hsl(5, 83%, 91%);
+	border: 1px hsl(4, 100%, 67%) solid;
+}
+
+.input-error:focus {
+	border-color: hsl(4, 100%, 67%);
+}
+
+.success {
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	background-color: white;
+	width: 40%;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+.success img {
+	width: 50px;
+}
+
+.success h1 {
+	font-size: 40px;
+	text-align: left;
+	margin: 15px;
+	margin-left: 0;
+	padding: 0;
+}
+
+.success p {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.success {
+	display: none;
+}
+
+.attribution { 
+	margin: 20px;
+	font-size: 11px; 
+	text-align: center; 
+	color: white;
+	position: relative;
+	bottom: 0;
+}
+
+.attribution a {
+	color: white;
+}
+
+#subscribe-button {
+	font-size: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		padding: 0;
+		margin: 0;
+		background-color: white;
+	}
+
+	p {
+		font-size: larger;
+	}
+
+	main {
+		width: 90%;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.signup {
+		flex-direction: column-reverse;
+		padding-bottom: 40px;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#email {
+		width: 95%;
+		padding-right: 0;
+	}
+
+	.subscribe, .image {
+		width: 100%;
+	}
+
+	.attribution {
+		color: hsl(234, 29%, 20%);
+		position: relative;
+	}
+
+	.attribution a {
+		color: hsl(234, 29%, 20%);
+	}
+
+	.success {
+		width: 100%;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 80px;
+		font-size: larger;
+	}
+
+	.success p {
+		font-size: larger;
+		text-align: left;
+		margin-bottom: 300px;
+	}
+
+	.success img {
+		width: 80px;
+	}
+
+	.success h1 {
+		font-size: 50px;
+	}
+
+	.success button {
+		margin-top: auto;
+		justify-self: end;
+	}
+}
